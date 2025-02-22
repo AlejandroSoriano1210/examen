@@ -35,8 +35,11 @@ class XXXXXXController extends Controller
             'XXXX' => 'required|string|max:255',
             'XXXXX' => 'required|string|max:255',
         ]);
+
         $XXXXXX = XXXXXX::create($validated);
+
         session()->flash('exito', 'XXXXXX creado correctamente.');
+        
         return redirect()->route('XXXXXXs.show', $XXXXXX);
     }
 
